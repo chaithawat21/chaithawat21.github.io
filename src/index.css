@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background: linear-gradient(-45deg, #F7FAFA, #A8C7CA, #DF7A61, #E7AD6B,#24348B);
+  background-size: 600% 600%;
+ min-height: 100svh;
+ animation: AnimationGradient 100s ease infinite
+}
+
+@keyframes AnimationGradient {
+  0%{background-position:0% 50%}
+  50%{background-position:100% 50%}
+  100%{background-position:0% 50%}
+}
+
+
+main {
+  height: 100vh;
+
+
+}
+/* .circle {
+  position: absolute;
+  z-index: 0;
+  top: -20rem;
+  left: -20rem;
+  background: linear-gradient(45deg, #DF7A61, #E7AD6B);
+  border-radius: 50%;
+  width: 40rem;
+  height: 40rem;
+} */
+.content {
+  position: relative;
+  z-index: 10;
+  height: 100vh;
+  background-image: url("https://www.transparenttextures.com/patterns/billie-holiday.png");
+  backdrop-filter: blur(100px);
+
+}
+.top {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  margin-left: 5rem;
+  
+  
+  
+  
+}
+
+.name {
+  color: #F7FAFA;
+  font-size: 5rem;
+  font-weight: 400;
+  text-shadow: 0px 5px 0px #f7fafa80;
+  opacity: .5;
+  margin-top: 10rem;
+  
+}
+.icon-link{
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+}
+.icon {
+  height: 2rem;
+  width: 2rem;
+  filter: brightness(0) saturate(100%) invert(91%) sepia(3%) saturate(167%) hue-rotate(153deg) brightness(109%) contrast(96%);
+  opacity: .5;
+  border-radius: 50%;
+  box-shadow: 0px 2.5px 0 0 #f7fafa80;
+}
+.icon:hover {
+  opacity: .75;
+}
+
