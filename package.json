@@ -2,6 +2,7 @@
   "name": "chaithawat21.github.io",
   "private": true,
   "version": "0.0.0",
+  "homepage": "https://chaithawat21.github.io/",
   "type": "module",
   "scripts": {
     "dev": "vite",
