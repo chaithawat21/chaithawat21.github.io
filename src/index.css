@@ -25,8 +25,8 @@ body {
 
 
 main {
-  height: 100vh;
 
+  overflow: hidden;
 
 }
 /* .circle {
@@ -53,18 +53,16 @@ main {
   justify-content: start;
   margin-left: 5rem;
   
-  
-  
-  
 }
 
 .name {
   color: #F7FAFA;
-  font-size: 5rem;
+  font-size: 3rem;
   font-weight: 400;
-  text-shadow: 0px 5px 0px #f7fafa80;
+  text-shadow: 0px 3px 0px #f7fafa80;
   opacity: .5;
   margin-top: 10rem;
+  line-height: 1;
   
 }
 .icon-link{
@@ -84,3 +82,74 @@ main {
   opacity: .75;
 }
 
+.middle {
+  margin-top: 5rem;
+  overflow: hidden;
+  
+}
+.frontendmentor {
+  margin-left: 5rem;
+  color: #24348B;
+  font-size: 2rem;
+  font-weight: 500;
+  text-shadow: 0px 2px 0px #24348B;
+  opacity: .5;
+}
+.container-cards {
+  display: flex;
+  flex-direction: row;
+  
+
+  gap: 1rem;
+
+}
+.card {
+  position: relative;
+  overflow: hidden;
+  height: 300px;
+  min-width: 200px;
+  font-display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  opacity: .75;
+
+
+}
+.card-hover {
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  z-index: 10;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.card-text {
+  background-color: white;
+}
+.card-image {
+  object-fit: cover;
+  object-position: top;
+  width: 100%;
+  height: 100%;
+
+}
+
+@media (max-width: 375px) {
+  .top{
+    margin-left: 1rem;
+  }
+  .name{
+    margin-top: 5rem;
+  }
+  .middle {
+    margin-top: 3rem;
+  }
+  .frontendmentor {
+    margin-left: 1rem;
+  }
+}
