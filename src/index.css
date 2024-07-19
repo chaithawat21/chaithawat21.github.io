@@ -49,9 +49,10 @@ main {
 }
 .top {
   display: flex;
-  flex-direction: column;
-  justify-content: start;
-  margin-left: 5rem;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-inline: 5rem;
+  
   
 }
 
@@ -69,6 +70,7 @@ main {
   display: flex;
   flex-direction: row;
   gap: 2rem;
+  margin-top: 10rem;
 }
 .icon {
   height: 2rem;
@@ -89,11 +91,11 @@ main {
 }
 .frontendmentor {
   margin-left: 5rem;
-  color: #24348B;
+  color: #F7FAFA;
   font-size: 2rem;
-  font-weight: 500;
-  text-shadow: 0px 2px 0px #24348B;
-  opacity: .5;
+  font-weight: 400;
+  text-shadow: 0px 3px 0px #F7FAFA50;
+  opacity: .35;
 }
 .container-cards {
   display: flex;
@@ -112,7 +114,7 @@ main {
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  opacity: .75;
+  opacity: .5;
 
 
 }
@@ -141,10 +143,15 @@ main {
 
 @media (max-width: 375px) {
   .top{
-    margin-left: 1rem;
+    flex-direction: column;
+    justify-content: start;
+    margin-inline: 1rem;
   }
   .name{
     margin-top: 5rem;
+  }
+  .icon-link{
+    margin-top: 1rem;
   }
   .middle {
     margin-top: 3rem;
