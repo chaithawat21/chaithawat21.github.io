@@ -294,7 +294,9 @@ function App() {
             </div>
           </div>
           <div className="middle">
-            <h2 className="o2o">O2O Project</h2>
+            <h2 className="o2o">
+            <a href="https://o2o-project.vercel.app" target="_blank">O2O Project</a>
+            </h2>
             <img className="o2o-img" src={screenshot} alt="screenshot" onClick={handleGroupClick}/>
             {selectedGroupProject && <ModalGroupProject onClose={handleCloseModal} />}
             <ul className="o2o-list">
@@ -303,7 +305,7 @@ function App() {
               <li ><a className="o2o-text" href="https://github.com/chaithawat21/o2o-backend" target="_blank">REPOSITORY(Backend)</a></li>
             </ul>
             <h2 className="frontendmentor">
-              <a href="https://www.frontendmentor.io/profile/chaithawat21">Frontend Mentor</a>
+              <a href="https://www.frontendmentor.io/profile/chaithawat21" target="_blank">Frontend Mentor</a>
             </h2>
             <motion.div
               className="container-cards"
