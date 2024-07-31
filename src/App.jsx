@@ -281,7 +281,7 @@ function App() {
           <div className='top'>
             <div className="top-name">
             <motion.h1 className='name'>{displayed}</motion.h1>
-            <p className="name-detail">I'm UI/UX Design and Front End Deverloper.</p>
+            <p className="name-detail">I'm UI/UX Design and Front End Developer.</p>
             </div>
             <div className="icon-link">
               <a href="https://www.linkedin.com/in/chaithawat/" target="_blank" >
