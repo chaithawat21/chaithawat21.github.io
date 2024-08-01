@@ -290,7 +290,7 @@ function App() {
               <a href="https://github.com/chaithawat21" target="_blank" >
                 <img className="icon" src={Github} alt="Github" />
               </a>
-              <a className="resume" href="https://docs.google.com/document/d/15YN51S1UoHOaM3tuW_HcXi5NQvi1B0oRZ2uog6Aymas/edit" target="_blank">RESUME</a>
+              <a className="resume" href="https://www.canva.com/design/DAGMh2JsQSE/vZzxGNJR5mwARaZl-Rrm7Q/view?utm_content=DAGMh2JsQSE&utm_campaign=designshare&utm_medium=link&utm_source=editor" target="_blank">RESUME</a>
             </div>
           </div>
           <div className="middle">
@@ -300,7 +300,7 @@ function App() {
             <img className="o2o-img" src={screenshot} alt="screenshot" onClick={handleGroupClick}/>
             {selectedGroupProject && <ModalGroupProject onClose={handleCloseModal} />}
             <ul className="o2o-list">
-              <li ><a className="o2o-text" href="https://www.figma.com/design/1Ouaz0a9aK67HJkwLVG9yo/O2O-Project?node-id=0-1&t=ckgzmrYSVuBM0NFr-1" target="_blank">FIGMA</a></li>
+              <li ><a className="o2o-text" href="https://www.figma.com/design/7pjpUvA80UlvUp0nj9eonQ/Design?node-id=0-1&t=YZwNx7rLROd5bFgP-1" target="_blank">FIGMA</a></li>
               <li ><a className="o2o-text" href="https://github.com/chaithawat21/o2o-frontend" target="_blank">REPOSITORY(Frontend)</a></li>
               <li ><a className="o2o-text" href="https://github.com/chaithawat21/o2o-backend" target="_blank">REPOSITORY(Backend)</a></li>
             </ul>
