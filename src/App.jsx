@@ -5,6 +5,10 @@ import Github from "./assets/icon/github.svg";
 import Card from "./components/Card";
 import Modal from "./components/Modal";
 import ModalGroupProject from "./components/ModalGroupProject";
+import { ShaderGradientCanvas, ShaderGradient } from 'shadergradient'
+import * as reactSpring from '@react-spring/three'
+import * as drei from '@react-three/drei'
+import * as fiber from '@react-three/fiber'
 
 import advicegeneratorappmain from "./assets/frontendmentor/advice-generator-app-main.jpg"
 import blogpreviewcardmain from "./assets/frontendmentor/blog-preview-card-main.jpg"
@@ -276,7 +280,6 @@ function App() {
   return (
     <>
       <main>
-        <div className='circle'></div>
         <div className='content'>
           <div className='top'>
             <div className="top-name">
@@ -343,6 +346,19 @@ function App() {
 
           </AnimatePresence>
         </div>
+        <ShaderGradientCanvas
+      importedFiber={{ ...fiber, ...drei, ...reactSpring }}
+      style={{
+        position: 'absolute',
+        top: 0,
+        height: 1000,
+      }}
+    >
+      <ShaderGradient
+        control='query'
+        urlString='https://www.shadergradient.co/customize?animate=on&axesHelper=off&bgColor1=%23000000&bgColor2=%23000000&brightness=1.4&cAzimuthAngle=180&cDistance=3.1&cPolarAngle=120&cameraZoom=1&color1=%23a8c7ca&color2=%23df7a61&color3=%23e7ad6b&destination=onCanvas&embedMode=off&envPreset=lobby&format=gif&fov=50&frameRate=10&gizmoHelper=hide&grain=off&lightType=3d&pixelDensity=1&positionX=0&positionY=1.8&positionZ=0&range=enabled&rangeEnd=40&rangeStart=0&reflection=0.1&rotationX=0&rotationY=0&rotationZ=-90&shader=defaults&type=waterPlane&uDensity=1&uFrequency=5.5&uSpeed=0.3&uStrength=3&uTime=0.2&wireframe=false'
+      />
+    </ShaderGradientCanvas>
       </main>
     </>
   );

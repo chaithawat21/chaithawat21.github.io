@@ -15,20 +15,20 @@ a {
 }
 
 body {
-  background: linear-gradient(
+  /* background: linear-gradient(
     120deg,
     #f7fafa,
     #a8c7ca,
     #df7a61,
     #e7ad6b,
     #24348b
-  );
-  background-size: 300% 300%;
+  ); */
+  /* background-size: 300% 300%; */
   min-height: 100svh;
-  animation: AnimationGradient 10s ease infinite;
+  /* animation: AnimationGradient 10s ease infinite; */
 }
 
-@keyframes AnimationGradient {
+/* @keyframes AnimationGradient {
   0% {
     background-position: 0% 50%;
   }
@@ -38,7 +38,7 @@ body {
   100% {
     background-position: 0% 50%;
   }
-}
+} */
 
 main {
   overflow-x: hidden;
@@ -48,26 +48,30 @@ main {
   position: relative;
   z-index: 10;
   height: 100vh;
-  background-image: url("https://www.transparenttextures.com/patterns/billie-holiday.png");
-  backdrop-filter: blur(100px);
+  /* background-image: url("https://www.transparenttextures.com/patterns/billie-holiday.png"); */
+  backdrop-filter: blur(50px);
 }
 .top {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  margin-inline: 5rem;
+  padding-inline: 5rem;
+  padding-block: 2.5rem;
+background: linear-gradient(0deg, #f7fafa00 20%,#e7ad6b 80%) ;
+
 }
 
 .name {
   color: #f7fafa;
   font-size: 3rem;
   font-weight: 400;
-  text-shadow: 0px 3px 0px #f7fafa80;
+  /* text-shadow: 0px 3px 0px #f7fafa80; */
   opacity: 0.95;
-  margin-top: 2.5rem;
+ 
   line-height: 1;
   letter-spacing: 5px;
+  
 }
 .name-detail {
   color: #f7fafa;
@@ -88,7 +92,7 @@ main {
     hue-rotate(153deg) brightness(109%) contrast(96%);
   opacity: 0.5;
   border-radius: 50%;
-  box-shadow: 0px 2.5px 0 0 #f7fafa80;
+  /* box-shadow: 0px 2.5px 0 0 #f7fafa80; */
 }
 .icon:hover {
   opacity: 0.75;
@@ -96,7 +100,7 @@ main {
 .resume {
   opacity: .5;
   font-size: 1.25rem;
-  text-shadow: 0px 1.25px 0px #f7fafa80;
+  /* text-shadow: 0px 1.25px 0px #f7fafa80; */
 }
 .resume:hover {
   opacity: .75;
@@ -113,14 +117,18 @@ main {
   color: #f7fafa;
   font-size: 2rem;
   font-weight: 400;
-  text-shadow: 0px 3px 0px #f7fafa50;
+  /* text-shadow: 0px 3px 0px #f7fafa50; */
   opacity: 0.65;
+}
+.o2o:hover{
+  opacity: .9;
 }
 .o2o-img{
   width: 20rem;
   margin-left: 5rem;
   opacity: .65;
   cursor: pointer;
+  
 }
 .o2o-img:hover{
   opacity: 1;
@@ -132,12 +140,13 @@ main {
   display: flex;
   flex-direction: row;
   gap: .75rem;
-  
+  margin-top: .5rem;
 }
 .o2o-text{
 color:#f7fafa;
-opacity: .65;
+padding-block: .25rem;
 background-color: #00000090;
+
 padding-inline: .5rem;
 border-radius: 30px;
 }
@@ -154,7 +163,7 @@ button {
   color: #f7fafa;
   font-size: 2rem;
   font-weight: 400;
-  text-shadow: 0px 3px 0px #f7fafa50;
+  /* text-shadow: 0px 3px 0px #f7fafa50; */
   opacity: 0.5;
   
 }
@@ -212,7 +221,7 @@ button {
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: #00000080;
+  background-color: #e7ad6b10;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -282,12 +291,10 @@ button {
   .top {
     flex-direction: column;
     justify-content: start;
-    margin-inline: 1rem;
+    padding-inline: 1rem;
     align-items: start;
   }
-  .name {
-    margin-top: 5rem;
-  }
+ 
   .icon-link {
     margin-top: 1rem;
   }
