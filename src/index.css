@@ -92,20 +92,20 @@ backdrop-filter: blur(250px);
   width: 2rem;
   filter: brightness(0) saturate(100%) invert(91%) sepia(3%) saturate(167%)
     hue-rotate(153deg) brightness(109%) contrast(96%);
-  opacity: 0.5;
+  opacity: 0.75;
   border-radius: 50%;
   /* box-shadow: 0px 2.5px 0 0 #f7fafa80; */
 }
 .icon:hover {
-  opacity: 0.75;
+  opacity: 0.95;
 }
 .resume {
-  opacity: .5;
+  opacity: .75;
   font-size: 1.25rem;
   /* text-shadow: 0px 1.25px 0px #f7fafa80; */
 }
 .resume:hover {
-  opacity: .75;
+  opacity: .95;
  
 }
 
@@ -120,15 +120,15 @@ backdrop-filter: blur(250px);
   font-size: 2rem;
   font-weight: 400;
   /* text-shadow: 0px 3px 0px #f7fafa50; */
-  opacity: 0.65;
+  opacity: 0.75;
 }
 .o2o:hover{
-  opacity: .9;
+  opacity: .95;
 }
 .o2o-img{
   width: 20rem;
   margin-left: 5rem;
-  opacity: .65;
+  opacity: .75;
   cursor: pointer;
   
 }
@@ -149,14 +149,15 @@ backdrop-filter: blur(250px);
 color:#f7fafa;
 padding-block: .25rem;
 
-backdrop-filter: blur(2000px);
+border: 1px solid #f7fafa ;
 
+opacity: .65;
 padding-inline: .5rem;
 border-radius: 30px;
 }
 .o2o-text:hover{
   
-  opacity: .75;
+  opacity: .95;
 }
 button {
   color: transparent;
@@ -168,11 +169,11 @@ button {
   font-size: 2rem;
   font-weight: 400;
   /* text-shadow: 0px 3px 0px #f7fafa50; */
-  opacity: 0.5;
+  opacity: 0.75;
   
 }
 .frontendmentor:hover {
-  opacity: .75;
+  opacity: .95;
 }
 .container-cards {
   display: flex;
@@ -190,7 +191,7 @@ button {
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  opacity: 0.5;
+  opacity: 0.75;
   cursor: pointer;
 }
 .card:hover{
@@ -225,7 +226,7 @@ button {
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: #e7ad6b10;
+  background-color: #0000005a;
   display: flex;
   align-items: center;
   justify-content: center;
