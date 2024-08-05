@@ -352,6 +352,7 @@ function App() {
         position: 'absolute',
         top: 0,
         height: 1000,
+        
       }}
     >
       <ShaderGradient

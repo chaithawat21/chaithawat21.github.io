@@ -42,6 +42,7 @@ body {
 
 main {
   overflow-x: hidden;
+
 }
 
 .content {
@@ -49,7 +50,7 @@ main {
   z-index: 10;
   height: 100vh;
   /* background-image: url("https://www.transparenttextures.com/patterns/billie-holiday.png"); */
-  backdrop-filter: blur(50px);
+
 }
 .top {
   display: flex;
@@ -58,8 +59,9 @@ main {
   align-items: center;
   padding-inline: 5rem;
   padding-block: 2.5rem;
-background: linear-gradient(0deg, #f7fafa00 20%,#e7ad6b 80%) ;
-
+ 
+/* background: linear-gradient(0deg, #f7fafa00 20%,#e7ad6b 80%) ; */
+backdrop-filter: blur(250px);
 }
 
 .name {
@@ -141,11 +143,13 @@ background: linear-gradient(0deg, #f7fafa00 20%,#e7ad6b 80%) ;
   flex-direction: row;
   gap: .75rem;
   margin-top: .5rem;
+  /* filter: blur(100px); */
 }
 .o2o-text{
 color:#f7fafa;
 padding-block: .25rem;
-background-color: #00000090;
+
+backdrop-filter: blur(2000px);
 
 padding-inline: .5rem;
 border-radius: 30px;
